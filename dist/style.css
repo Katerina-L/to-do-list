@@ -1,5 +1,1 @@
-h1 {
-  color: red;
-}
-
-/*# sourceMappingURL=style.css.map */
+*{margin:0;padding:0;box-sizing:border-box}body{color:#ffebcd;background:#ffebcd}.container{margin:0 auto;padding-top:30px}.todo_list{max-width:600px;display:block;background-color:#1ba39c;padding:20px;border-radius:15px;margin:auto}h1{text-align:center;margin-bottom:20px;font-size:30px}.create_new_todo{text-align:center}.create_new_todo input{width:300px;padding:10px}.create_new_todo button{width:100px;padding:10px;cursor:pointer}.todo li{width:400px;list-style-type:none;margin:10px auto}

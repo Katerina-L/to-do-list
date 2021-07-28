@@ -1,3 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: blanchedalmond;
+    background: blanchedalmond;
+
+}
+
+.container{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.todo_list{
+    max-width: 600px;
+    display: block;
+    background-color: #1BA39C;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+
 h1 {
-    color: greenyellow;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.create_new_todo{
+    text-align: center;
+    input {
+        width: 300px;
+        padding: 10px;
+    }
+    button {
+        width: 100px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+.todo {
+    li{
+        width: 400px;
+        list-style-type: none;
+        margin: 10px auto;
+    }
 }
